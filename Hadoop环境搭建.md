@@ -17,8 +17,8 @@
     
     ```
     export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
-export HADOOP_HOME=/Users/gandalf/Documents/kelvin/Hadoop/hadoop-2.8.0
-export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+    export HADOOP_HOME=/Users/gandalf/Documents/kelvin/Hadoop/hadoop-2.8.0
+    export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
     ```
     
@@ -27,16 +27,16 @@ export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
     ```
     $ source ~/.zshrc
     ```
-设置完成后，如果出现下面信息，表示hadoop开发环境变量设置好了
+    设置完成后，如果出现下面信息，表示hadoop开发环境变量设置好了
 
     ```
-$ hadoop version
-Hadoop 2.8.0
-Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r 91f2b7a13d1e97be65db92ddabc627cc29ac0009
-Compiled by jdu on 2017-03-17T04:12Z
-Compiled with protoc 2.5.0
-From source with checksum 60125541c2b3e266cbf3becc5bda666
-This command was run using /Users/gandalf/Documents/kelvin/Hadoop/hadoop-2.8.0/share/hadoop/common/hadoop-common-2.8.0.jar
+    $ hadoop version
+    Hadoop 2.8.0
+    Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r 91f2b7a13d1e97be65db92ddabc627cc29ac0009
+    Compiled by jdu on 2017-03-17T04:12Z
+    Compiled with protoc 2.5.0
+    From source with checksum 60125541c2b3e266cbf3becc5bda666
+    This command was run using /Users/gandalf/Documents/kelvin/Hadoop/hadoop-2.8.0/share/hadoop/common/hadoop-common-2.8.0.jar
     ```
 
 4. 修改hadoop-env.sh
